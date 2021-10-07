@@ -19,18 +19,10 @@ All of our open source software is posted at our group's [GitHub Repository](htt
   VIPER (Visual Inspection of Peak/Elution Relationships) can be used to visualize and characterize the features detected during LC-MS analyses.
 
 #### Software Category: Data Analysis and Data Presentation Tools
-* __[Active Data Canvas](https://omics.pnl.gov/software/active-data-canvas)__ <br>
+* __[Active Data Canvas](https://github.com/ActiveDataBio/Adbio)__ <br>
   Active Data Canvas is a web-based visual analytic tool to visualize data matrix (expression matrix) and for users to interactively identify the structured domain knowledges (e.g., pathways and other genesets) linked to a cluster.
 
-* __[Amino Acid Residue Frequency Summarizer](https://omics.pnl.gov/software/amino-acid-residue-frequency-summarizer)__ <br>
-  The Residue Frequency Summarizer is a VB.NET command-line utility that reads in a text file or fasta file containing peptide or protein sequences and prepares statistics on the occurrence of each amino acid residue throughout the file. Statistics include the number of sequences containing each amino acid and the occurrence percentage across all residues for each amino acid.
-
-* __[DanteR](https://omics.pnl.gov/software/danter)__ <br>
-  DanteR is an entirely R-based program that provides a graphical front-end for common data analysis tasks in "omics", with an emphasis on proteomics. It is the successor to DAnTE, providing all of the previous features plus new functionality, including the imputation algorithm described in "[A statistical framework for protein quantitation in bottom-up MS-based proteomics.](https://www.ncbi.nlm.nih.gov/pubmed/19535538)" by Karpievitch and Dabney (DOI 10.1093/bioinformatics/btp362).
-
-  IMPORTANT: Development of this program is frozen since it has been superseded by InfernoRDN, available on the [InfernoRDN page](https://pnnl-comp-mass-spec.github.io/InfernoRDN/) or [on GitHub](https://github.com/PNNL-Comp-Mass-Spec/InfernoRDN/releases).
-
-  This version is still made available because it implements the imputation algorithm described above (see "Model Based Filter/Impute/ANOVA" under the Statistics menu).
+  Active Data Canvas was hosted at ~~`https://adbio.pnnl.gov/bioviz`~~, but that was turned off due to lack of use. The source code is available at https://github.com/ActiveDataBio/Adbio
 
 * __[LcMsSpectator](https://omics.pnl.gov/software/lcmsspectator)__ <br>
   Windows graphical user interface tool for viewing LC-MS data and identifications.
@@ -70,9 +62,6 @@ Console application that reads a protein FASTA file and splits it apart into a n
 * __[Formularity](https://omics.pnl.gov/software/formularity)__ <br>
   Formularity is software for assignment of low weight molecular formula from high-resolution mass spectra.
 
-* __[ICR-2LS](https://omics.pnl.gov/software/icr-2ls)__ <br>
-  Finds peaks in raw mass spectra. Capable of full waveform generation, automated mass spectra interpretation and database searching integration of FASTA or GenBank files.
-
 * __[MTDB Creator](https://omics.pnl.gov/software/mtdb-creator)__ <br>
   This software can be used to generate an Accurate Mass and Time tag database from local MS/MS search engine results from MSGF+, X!Tandem, or SEQUEST.  It can create the database in two formats:
 
@@ -94,15 +83,6 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[MASIC Results Merger](https://omics.pnl.gov/software/masic-results-merger)__ <br>
   Reads the contents of a tab-delimited peptide hit results file (e.g. from Sequest, XTandem, Inspect, or MSGF+) and merges that information with the corresponding MASIC results files, appending the relevant MASIC stats for each peptide hit result.
 
-* __[mPE-MMR](https://omics.pnl.gov/software/mpe-mmr)__ <br>
-  mPE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra. mPE-MMR (Multiplexed Post-Experiment Monoisotopic Mass Refinement) supports multiplexed MS/MS spectra, and consists of the following:
-
-  * Multiplexing of precursor masses to assign multiple monoisotopic masses of cofragmented peptides to the corresponding multiplexed MS/MS spectra
-  * Multiplexing of charge states to assign correct charges to the precursor ions of MS/MS spectra with no charge information
-  * Mass correction for inaccurate monoisotopic peak picking.
-
-  When combined with MS-GF+, a database search algorithm based on fragment mass difference, mPE-MMR effectively increases both sensitivity and accuracy in peptide identification from complex high-throughput proteomics data compared to conventional methods.
-
 * __[MS-GF+](https://omics.pnl.gov/software/ms-gf)__ <br>
   MS-GF+ (aka MSGF+ or MSGFPlus) performs peptide identification by scoring MS/MS spectra against peptides derived from a protein sequence database. It supports the HUPO PSI standard input file (mzML) and saves results in the mzIdentML format, though results can easily be transformed to TSV. ProteomeXchange supports Complete data submissions using MS-GF+ search results.
 
@@ -121,18 +101,12 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 
   For more information on the algorithms employed by mzRefinery, see also http://www.ncbi.nlm.nih.gov/pubmed/26243018
 
-* __[PE-MMR](https://omics.pnl.gov/software/pe-mmr)__ <br>
-  PE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra.
-
 * __[Peptide Hit Results Processor](https://omics.pnl.gov/software/peptide-hit-results-processor)__ <br>
   Converts a MSGF+ TSV file, X!Tandem results file (XML format), or a SEQUEST Synopsis/First Hits file to a series of tab-delimited text files summarizing the results.
 
 #### Software Category: MS Data File Utilities
 * __[Concatenated DTA to Mascot Generic File (MGF) File Converter](https://omics.pnl.gov/software/concatenated-dta-mascot-generic-file-mgf-file-converter)__ <br>
   Command-line utility that reads in a _Dta.txt file and creates the equivalent Mascot Generic Format (MGF) file. _Dta.txt files are large text files that contain numerous .Dta files, all concatenated together.
-
-* __[Concatenated Text File Splitter](https://omics.pnl.gov/software/concatenated-text-file-splitter)__ <br>
-  The Concatenated Text File Splitter can be used to split apart the concatenated file to re-create the individual text files (creating one file per spectrum). This is necessary if you wish to re-search the data with SEQUEST (which reads individual .Dta files).
 
 * __[FlexibleFileSortUtility](https://omics.pnl.gov/software/flexiblefilesortutility)__ <br>
   The Flexible File Sort Utility is a command line application that sorts a text file alphabetically (forward or reverse). <br>
@@ -166,7 +140,31 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[Command Line Application Help](https://omics.pnl.gov/software/command-line-application-help)__ <br>
   This topic provides a basic introduction to using software tools that do not have a graphical user interface (GUI) and instead can only be used at the Windows Command Prompt.
 
+#### Retired Tools:
+* __[DanteR](https://omics.pnl.gov/software/danter)__ <br>
+  DanteR is an entirely R-based program that provides a graphical front-end for common data analysis tasks in "omics", with an emphasis on proteomics. It is the successor to DAnTE, providing all of the previous features plus new functionality, including the imputation algorithm described in "[A statistical framework for protein quantitation in bottom-up MS-based proteomics.](https://www.ncbi.nlm.nih.gov/pubmed/19535538)" by Karpievitch and Dabney (DOI 10.1093/bioinformatics/btp362).
 
+  IMPORTANT: Development of this program is frozen since it has been superseded by InfernoRDN, available on the [InfernoRDN page](https://pnnl-comp-mass-spec.github.io/InfernoRDN/) or [on GitHub](https://github.com/PNNL-Comp-Mass-Spec/InfernoRDN/releases).
+
+  This version is still made available because it implements the imputation algorithm described above (see "Model Based Filter/Impute/ANOVA" under the Statistics menu).
+
+* __[ICR-2LS](https://omics.pnl.gov/software/icr-2ls)__ <br>
+  Finds peaks in raw mass spectra. Capable of full waveform generation, automated mass spectra interpretation and database searching integration of FASTA or GenBank files.
+
+* __[mPE-MMR](https://omics.pnl.gov/software/mpe-mmr)__ <br>
+  mPE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra. mPE-MMR (Multiplexed Post-Experiment Monoisotopic Mass Refinement) supports multiplexed MS/MS spectra, and consists of the following:
+
+  * Multiplexing of precursor masses to assign multiple monoisotopic masses of cofragmented peptides to the corresponding multiplexed MS/MS spectra
+  * Multiplexing of charge states to assign correct charges to the precursor ions of MS/MS spectra with no charge information
+  * Mass correction for inaccurate monoisotopic peak picking.
+
+  When combined with MS-GF+, a database search algorithm based on fragment mass difference, mPE-MMR effectively increases both sensitivity and accuracy in peptide identification from complex high-throughput proteomics data compared to conventional methods.
+
+* __[PE-MMR](https://omics.pnl.gov/software/pe-mmr)__ <br>
+  PE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra.
+
+* __[Concatenated Text File Splitter](https://omics.pnl.gov/software/concatenated-text-file-splitter)__ <br>
+  The Concatenated Text File Splitter can be used to split apart the concatenated file to re-create the individual text files (creating one file per spectrum). This is necessary if you wish to re-search the data with SEQUEST (which reads individual .Dta files).
 
 ### Software Disclaimers
 ##### Acknowledgment
