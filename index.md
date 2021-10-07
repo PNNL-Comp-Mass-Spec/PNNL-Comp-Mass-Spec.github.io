@@ -137,7 +137,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   VB.NET DLL version of the Molecular Weight Calculator, supporting a range of molecular weight calculations for both chemical formulas and amino acids.
 
 #### Software Category: Tutorials
-* __[Command Line Application Help](https://omics.pnl.gov/software/command-line-application-help)__ <br>
+* __[Command Line Application Help](https://pnnl-comp-mass-spec.github.io/CmdLineHelp)__ <br>
   This topic provides a basic introduction to using software tools that do not have a graphical user interface (GUI) and instead can only be used at the Windows Command Prompt.
 
 #### Retired Tools:
