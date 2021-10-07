@@ -24,19 +24,19 @@ All of our open source software is posted at our group's [GitHub Repository](htt
 
   Active Data Canvas was hosted at ~~`https://adbio.pnnl.gov/bioviz`~~, but that was turned off due to lack of use. The source code is available at https://github.com/ActiveDataBio/Adbio
 
-* __[LcMsSpectator](https://omics.pnl.gov/software/lcmsspectator)__ <br>
+* __[LcMsSpectator](https://pnnl-comp-mass-spec.github.io/LCMS-Spectator/)__ <br>
   Windows graphical user interface tool for viewing LC-MS data and identifications.
 
 * __[ListPOR](https://omics.pnl.gov/software/listpor)__ <br>
   The ListPOR program (List Parser for Outlier Removal) can be used to read a file containing columns of grouped values and remove outlier values using Grubb's test.
 
-* __[Protein Coverage Summarizer](https://omics.pnl.gov/software/protein-coverage-summarizer)__ <br>
+* __[Protein Coverage Summarizer](https://pnnl-comp-mass-spec.github.io/protein-coverage-summarizer/)__ <br>
   The Protein Coverage Summarizer can be used to determine the percent of the residues in each protein sequence that have been identified.
 
 * __[ScalaBlast](https://omics.pnl.gov/software/scalablast)__ <br>
   A high-performance multiprocessor implementation of the NCBI BLAST library.
 
-* __[Venn Diagram Plotter](https://omics.pnl.gov/software/venn-diagram-plotter)__ <br>
+* __[Venn Diagram Plotter](https://pnnl-comp-mass-spec.github.io/Venn-Diagram-Plotter/)__ <br>
   Draws correctly proportioned and positioned two and three circle Venn diagrams (aka Euler diagrams) whose colors can be customized and the diagrams copied to the clipboard or saved to disk.
 
 * __[VIBE: Visual Integration for Bayesian Evaluation](https://omics.pnl.gov/software/vibe-visual-integration-bayesian-evaluation)__ <br>
@@ -49,20 +49,20 @@ Console application that reads a protein FASTA file and splits it apart into a n
 * __[Population Variation](https://omics.pnl.gov/software/population-variation)__ <br>
   A Population Variation plug-in for the [Skyline software program](https://skyline.ms/project/home/software/Skyline/begin.view) that can assist researchers in determining whether their target peptides have known mutations in the general human population.
 
-* __[Protein Digestion Simulator](https://omics.pnl.gov/software/protein-digestion-simulator)__ <br>
+* __[Protein Digestion Simulator](https://pnnl-comp-mass-spec.github.io/Protein-Digestion-Simulator/)__ <br>
   The Protein Digestion Simulator can be used to read a text file containing protein or peptide sequences ([FASTA](http://en.wikipedia.org/wiki/FASTA_format) format or delimited text) then output the data to a tab-delimited file.
 
-* __[Protein Sequence Motif Extractor](https://omics.pnl.gov/software/protein-sequence-motif-extractor)__ <br>
+* __[Protein Sequence Motif Extractor](https://pnnl-comp-mass-spec.github.io/Protein-Sequence-Motif-Extractor/)__ <br>
   The Protein Sequence Motif Extractor reads a fasta file or tab delimited file containing protein sequences, then looks for the specified motif in each protein sequence.
 
-* __[Uniprot DAT File Parser](https://omics.pnl.gov/software/uniprot-dat-file-parser)__ <br>
+* __[Uniprot DAT File Parser](https://pnnl-comp-mass-spec.github.io/Uniprot-DAT-File-Parser/)__ <br>
   The Uniprot DAT File Parser can read a Uniprot .Dat file and parse out the information for each entry, creating a series of tab delimited text files or creating a FASTA file.
 
 #### Software Category: MS Analysis Tools
 * __[Formularity](https://omics.pnl.gov/software/formularity)__ <br>
   Formularity is software for assignment of low weight molecular formula from high-resolution mass spectra.
 
-* __[MTDB Creator](https://omics.pnl.gov/software/mtdb-creator)__ <br>
+* __[MTDB Creator](https://pnnl-comp-mass-spec.github.io/MTDB-Creator/)__ <br>
   This software can be used to generate an Accurate Mass and Time tag database from local MS/MS search engine results from MSGF+, X!Tandem, or SEQUEST.  It can create the database in two formats:
 
   * Microsoft Access (.mdb file), compatible with VIPER
@@ -130,10 +130,10 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   The Thermo Raw File Reader is a .NET DLL that demonstrates how to read Thermo-Finnigan .Raw files using Thermo's MS File Reader.
 
 #### Software Category: Mass Spectrometry Auxiliary Tools
-* __[Molecular Weight Calculator](https://omics.pnl.gov/software/molecular-weight-calculator)__ <br>
+* __[Molecular Weight Calculator](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-VB6/)__ <br>
   Calculates the molecular weight and percent composition of chemical formulas and amino acids.
 
-* __[Molecular Weight Calculator - .NET DLL Version](https://omics.pnl.gov/software/molecular-weight-calculator-net-dll-version)__ <br>
+* __[Molecular Weight Calculator - .NET DLL Version](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-DLL/)__ <br>
   VB.NET DLL version of the Molecular Weight Calculator, supporting a range of molecular weight calculations for both chemical formulas and amino acids.
 
 #### Software Category: Tutorials
