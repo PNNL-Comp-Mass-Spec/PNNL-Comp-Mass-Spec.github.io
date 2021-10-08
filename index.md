@@ -69,7 +69,7 @@ Console application that reads a protein FASTA file and splits it apart into a n
   * SQLite (.mtdb), compatible with MultiAlign
 
 #### Software Category: MS/MS Analysis Tools
-* __[DeconMSn](https://omics.pnl.gov/software/deconmsn)__ <br>
+* __[DeconMSn](https://pnnl-comp-mass-spec.github.io/DeconMSn/)__ <br>
   DeconMSn creates spectrum files for tandem mass spectrometry data.
 
 * __[GlyQ-IQ](https://omics.pnl.gov/software/glyq-iq)__ <br>
@@ -77,31 +77,25 @@ Console application that reads a protein FASTA file and splits it apart into a n
 
   Note: GlyQ-IQ is provided on an as-is basis and is no longer supported.  Source code is on GitHub at https://github.com/PNNL-Comp-Mass-Spec/GlyQ-IQ
 
-* __[MASIC](https://omics.pnl.gov/software/masic)__ <br>
+* __[MASIC](https://pnnl-comp-mass-spec.github.io/MASIC/)__ <br>
 MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected ion chromatograms (SICs) for all of the parent ions chosen for fragmentation in an LC-MS/MS analysis.
 
-* __[MASIC Results Merger](https://omics.pnl.gov/software/masic-results-merger)__ <br>
+* __[MASIC Results Merger](https://pnnl-comp-mass-spec.github.io/MASIC-Results-Merger/)__ <br>
   Reads the contents of a tab-delimited peptide hit results file (e.g. from Sequest, XTandem, Inspect, or MSGF+) and merges that information with the corresponding MASIC results files, appending the relevant MASIC stats for each peptide hit result.
 
-* __[MS-GF+](https://omics.pnl.gov/software/ms-gf)__ <br>
+* __[MS-GF+](https://MSGFPlus.github.io/)__ <br>
   MS-GF+ (aka MSGF+ or MSGFPlus) performs peptide identification by scoring MS/MS spectra against peptides derived from a protein sequence database. It supports the HUPO PSI standard input file (mzML) and saves results in the mzIdentML format, though results can easily be transformed to TSV. ProteomeXchange supports Complete data submissions using MS-GF+ search results.
 
-* __[MSGFPlus/MASIC Data Processing Toolbox](https://omics.pnl.gov/software/msgfplusmasic-data-processing-toolbox)__ <br>
+* __[MSGFPlus/MASIC Data Processing Toolbox](https://pnnl-comp-mass-spec.github.io/MSGFPlus_MASIC_Toolbox/)__ <br>
   DataProcessing toolbox for running MSGF+ and MASIC, then merging the results. Uses Windows batch files to automate the process for a folder of Thermo .Raw files
 
 * __[MSPathFinder](https://omics.pnl.gov/software/mspathfinder)__ <br>
   MSPathFinder is a database search engine for top-down proteomics, part of the Informed Proteomics package.
 
-* __[MZRefinery](https://omics.pnl.gov/software/mzrefinery)__ <br>
+* __[MZRefinery](https://pnnl-comp-mass-spec.github.io/MzRefinery)__ <br>
   MZRefinery is a software tool for correcting systematic mass error biases in mass spectrometry data files. The software uses confident peptide spectrum matches from MSGF+ to evaluate three different calibration methods, then chooses the optimal transform function to remove systematic bias, typically resulting in a mass measurement error histogram centered at 0 ppm. MzRefinery is part of the ProteoWizard package (in the msconvert.exe tool) and it thus can read and write a wide variety of file formats.
 
-  Download ProteoWizard from http://proteowizard.sourceforge.net/downloads.shtml
-
-  See below for a command line utility for generating plots of the mass measurement errors before and after correction.
-
-  For more information on the algorithms employed by mzRefinery, see also http://www.ncbi.nlm.nih.gov/pubmed/26243018
-
-* __[Peptide Hit Results Processor](https://omics.pnl.gov/software/peptide-hit-results-processor)__ <br>
+* __[Peptide Hit Results Processor (PHRP)](https://pnnl-comp-mass-spec.github.io/PHRP/)__ <br>
   Converts a MSGF+ TSV file, X!Tandem results file (XML format), or a SEQUEST Synopsis/First Hits file to a series of tab-delimited text files summarizing the results.
 
 #### Software Category: MS Data File Utilities
@@ -114,10 +108,10 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   It can alternatively sort on a column in a tab-delimited or comma-separated file. <br>
   The column sort mode also supports numeric sorting.
 
-* __[LC-IMS-MS-Feature-Finder](https://omics.pnl.gov/software/LC-IMS-MS_Feature_Finder.php)__ <br>
+* __[LC-IMS-MS-Feature-Finder](https://pnnl-comp-mass-spec.github.io/LC-IMS-MS-Feature-Finder/)__ <br>
   Finds LC-IMS-MS features using deisotoped features from DeconTools
 
-* __[MS File Info Scanner](https://omics.pnl.gov/software/ms-file-info-scanner)__ <br>
+* __[MS File Info Scanner](https://pnnl-comp-mass-spec.github.io/MS-File-Info-Scanner/)__ <br>
   The MS File Info Scanner can be used to scan a series of MS data files (or data folders) and extract the acquisition start and end times, number of spectra, and the total size of the data.
 
 * __[OBO Data Converter](https://omics.pnl.gov/software/obo-data-converter)__ <br>
