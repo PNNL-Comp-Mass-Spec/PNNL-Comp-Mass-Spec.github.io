@@ -27,13 +27,13 @@ All of our open source software is posted at our group's [GitHub Repository](htt
 * __[LcMsSpectator](https://pnnl-comp-mass-spec.github.io/LCMS-Spectator/)__ <br>
   Windows graphical user interface tool for viewing LC-MS data and identifications.
 
-* __[ListPOR](https://omics.pnl.gov/software/listpor)__ <br>
+* __[ListPOR](https://pnnl-comp-mass-spec.github.io/ListPOR/)__ <br>
   The ListPOR program (List Parser for Outlier Removal) can be used to read a file containing columns of grouped values and remove outlier values using Grubb's test.
 
 * __[Protein Coverage Summarizer](https://pnnl-comp-mass-spec.github.io/protein-coverage-summarizer/)__ <br>
   The Protein Coverage Summarizer can be used to determine the percent of the residues in each protein sequence that have been identified.
 
-* __[ScalaBlast](https://omics.pnl.gov/software/scalablast)__ <br>
+* __[ScalaBLAST](ScalaBLAST)__ <br>
   A high-performance multiprocessor implementation of the NCBI BLAST library.
 
 * __[Venn Diagram Plotter](https://pnnl-comp-mass-spec.github.io/Venn-Diagram-Plotter/)__ <br>
@@ -43,10 +43,10 @@ All of our open source software is posted at our group's [GitHub Repository](htt
   The Visual Integration for Bayesian Evaluation (VIBE) software is a visualization tool that allows the user to observe classification accuracies at the class level and evaluate classification accuracies on any subset of available data types based on the posterior probability models defined for the individual and integrated data.
 
 #### Software Category: Fasta File, Protein Sequence, or Protein Database Related tools
-* __[Fasta File Splitter](https://omics.pnl.gov/software/fasta-file-splitter)__ <br>
+* __[Fasta File Splitter](https://pnnl-comp-mass-spec.github.io/Fasta-File-Splitter/)__ <br>
 Console application that reads a protein FASTA file and splits it apart into a number of sections. Although the splitting is random, each section will have a nearly identical number of residues.
 
-* __[Population Variation](https://omics.pnl.gov/software/population-variation)__ <br>
+* __[Population Variation](https://pnnl-comp-mass-spec.github.io/PopulationVariationPlugin/)__ <br>
   A Population Variation plug-in for the [Skyline software program](https://skyline.ms/project/home/software/Skyline/begin.view) that can assist researchers in determining whether their target peptides have known mutations in the general human population.
 
 * __[Protein Digestion Simulator](https://pnnl-comp-mass-spec.github.io/Protein-Digestion-Simulator/)__ <br>
@@ -59,7 +59,7 @@ Console application that reads a protein FASTA file and splits it apart into a n
   The Uniprot DAT File Parser can read a Uniprot .Dat file and parse out the information for each entry, creating a series of tab delimited text files or creating a FASTA file.
 
 #### Software Category: MS Analysis Tools
-* __[Formularity](https://omics.pnl.gov/software/formularity)__ <br>
+* __[Formularity](https://pnnl-comp-mass-spec.github.io/Formularity/)__ <br>
   Formularity is software for assignment of low weight molecular formula from high-resolution mass spectra.
 
 * __[MTDB Creator](https://pnnl-comp-mass-spec.github.io/MTDB-Creator/)__ <br>
@@ -72,10 +72,8 @@ Console application that reads a protein FASTA file and splits it apart into a n
 * __[DeconMSn](https://pnnl-comp-mass-spec.github.io/DeconMSn/)__ <br>
   DeconMSn creates spectrum files for tandem mass spectrometry data.
 
-* __[GlyQ-IQ](https://omics.pnl.gov/software/glyq-iq)__ <br>
+* __[GlyQ-IQ](https://pnnl-comp-mass-spec.github.io/GlyQ-IQ/)__ <br>
   GlyQ-IQ is software that performs a targeted, chromatographic centric search of mass spectral data for glycans. The software uses a list of glycan targets to search for expected features in MS1 spectra. Features are characterized by monoisotopic mass, elution time, and isotopic fit score.  Features are annotated by glycan family relationships and in-source fragmentation patterns.
-
-  Note: GlyQ-IQ is provided on an as-is basis and is no longer supported.  Source code is on GitHub at https://github.com/PNNL-Comp-Mass-Spec/GlyQ-IQ
 
 * __[MASIC](https://pnnl-comp-mass-spec.github.io/MASIC/)__ <br>
 MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected ion chromatograms (SICs) for all of the parent ions chosen for fragmentation in an LC-MS/MS analysis.
@@ -89,7 +87,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[MSGFPlus/MASIC Data Processing Toolbox](https://pnnl-comp-mass-spec.github.io/MSGFPlus_MASIC_Toolbox/)__ <br>
   DataProcessing toolbox for running MSGF+ and MASIC, then merging the results. Uses Windows batch files to automate the process for a folder of Thermo .Raw files
 
-* __[MSPathFinder](https://omics.pnl.gov/software/mspathfinder)__ <br>
+* __[MSPathFinder](https://pnnl-comp-mass-spec.github.io/Informed-Proteomics/)__ <br>
   MSPathFinder is a database search engine for top-down proteomics, part of the Informed Proteomics package.
 
 * __[MZRefinery](https://pnnl-comp-mass-spec.github.io/MzRefinery)__ <br>
@@ -99,10 +97,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   Converts a MSGF+ TSV file, X!Tandem results file (XML format), or a SEQUEST Synopsis/First Hits file to a series of tab-delimited text files summarizing the results.
 
 #### Software Category: MS Data File Utilities
-* __[Concatenated DTA to Mascot Generic File (MGF) File Converter](https://omics.pnl.gov/software/concatenated-dta-mascot-generic-file-mgf-file-converter)__ <br>
-  Command-line utility that reads in a _Dta.txt file and creates the equivalent Mascot Generic Format (MGF) file. _Dta.txt files are large text files that contain numerous .Dta files, all concatenated together.
-
-* __[FlexibleFileSortUtility](https://omics.pnl.gov/software/flexiblefilesortutility)__ <br>
+* __[FlexibleFileSortUtility](https://pnnl-comp-mass-spec.github.io/FlexibleFileSortUtility/)__ <br>
   The Flexible File Sort Utility is a command line application that sorts a text file alphabetically (forward or reverse). <br>
   It supports both in-memory sorts for smaller files and use of temporary swap files for large files. <br>
   It can alternatively sort on a column in a tab-delimited or comma-separated file. <br>
@@ -114,14 +109,14 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[MS File Info Scanner](https://pnnl-comp-mass-spec.github.io/MS-File-Info-Scanner/)__ <br>
   The MS File Info Scanner can be used to scan a series of MS data files (or data folders) and extract the acquisition start and end times, number of spectra, and the total size of the data.
 
-* __[OBO Data Converter](https://omics.pnl.gov/software/obo-data-converter)__ <br>
+* __[OBO Data Converter](https://pnnl-comp-mass-spec.github.io/OBO-Data-Converter/)__ <br>
   Utility for converting ontology OBO files to a tab-delimited text file
 
 * __[PNNL PreProcessor](https://omics.pnl.gov/software/pnnl-preprocessor)__ <br>
   Ion mobility-mass spectrometry (IM-MS) provides an increasingly popular platform for analyzing complex samples due to its separation power and ability to differentiate structural isomers, which are difficult to resolve using conventional LC-MS systems. Here we provide a software tool with various algorithms and utilities to improve workflows using this technology: data compression and interpolation, ion mobility demultiplexing, multidimensional smoothing, noise filtering by low intensity threshold and spike removal, saturation repair and metadata export.
 
-* __[Thermo Raw File Reader](https://omics.pnl.gov/software/thermo-raw-file-reader)__ <br>
-  The Thermo Raw File Reader is a .NET DLL that demonstrates how to read Thermo-Finnigan .Raw files using Thermo's MS File Reader.
+* __[Thermo Raw File Reader](https://pnnl-comp-mass-spec.github.io/Thermo-Raw-File-Reader/)__ <br>
+  The Thermo Raw File Reader is a .NET DLL that demonstrates how to read Thermo-Finnigan .Raw files using Thermo's RawFileReader.
 
 #### Software Category: Mass Spectrometry Auxiliary Tools
 * __[Molecular Weight Calculator](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-VB6/)__ <br>
@@ -156,6 +151,9 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 
 * __[PE-MMR](https://omics.pnl.gov/software/pe-mmr)__ <br>
   PE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra.
+
+* __[Concatenated DTA to Mascot Generic File (MGF) File Converter](https://omics.pnl.gov/software/concatenated-dta-mascot-generic-file-mgf-file-converter)__ <br>
+    Command-line utility that reads in a _Dta.txt file and creates the equivalent Mascot Generic Format (MGF) file. _Dta.txt files are large text files that contain numerous .Dta files, all concatenated together.
 
 * __[Concatenated Text File Splitter](https://omics.pnl.gov/software/concatenated-text-file-splitter)__ <br>
   The Concatenated Text File Splitter can be used to split apart the concatenated file to re-create the individual text files (creating one file per spectrum). This is necessary if you wish to re-search the data with SEQUEST (which reads individual .Dta files).
