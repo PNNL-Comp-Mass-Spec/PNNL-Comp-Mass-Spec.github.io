@@ -39,7 +39,7 @@ All of our open source software is posted at our group's [GitHub Repository](htt
 * __[Venn Diagram Plotter](https://pnnl-comp-mass-spec.github.io/Venn-Diagram-Plotter/)__ <br>
   Draws correctly proportioned and positioned two and three circle Venn diagrams (aka Euler diagrams) whose colors can be customized and the diagrams copied to the clipboard or saved to disk.
 
-* __[VIBE: Visual Integration for Bayesian Evaluation](https://omics.pnl.gov/software/vibe-visual-integration-bayesian-evaluation)__ <br>
+* __[VIBE: Visual Integration for Bayesian Evaluation](VIBE)__ <br>
   The Visual Integration for Bayesian Evaluation (VIBE) software is a visualization tool that allows the user to observe classification accuracies at the class level and evaluate classification accuracies on any subset of available data types based on the posterior probability models defined for the individual and integrated data.
 
 #### Software Category: Fasta File, Protein Sequence, or Protein Database Related tools
@@ -112,7 +112,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[OBO Data Converter](https://pnnl-comp-mass-spec.github.io/OBO-Data-Converter/)__ <br>
   Utility for converting ontology OBO files to a tab-delimited text file
 
-* __[PNNL PreProcessor](https://omics.pnl.gov/software/pnnl-preprocessor)__ <br>
+* __[PNNL PreProcessor](PNNL-PreProcessor)__ <br>
   Ion mobility-mass spectrometry (IM-MS) provides an increasingly popular platform for analyzing complex samples due to its separation power and ability to differentiate structural isomers, which are difficult to resolve using conventional LC-MS systems. Here we provide a software tool with various algorithms and utilities to improve workflows using this technology: data compression and interpolation, ion mobility demultiplexing, multidimensional smoothing, noise filtering by low intensity threshold and spike removal, saturation repair and metadata export.
 
 * __[Thermo Raw File Reader](https://pnnl-comp-mass-spec.github.io/Thermo-Raw-File-Reader/)__ <br>
@@ -126,21 +126,21 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   VB.NET DLL version of the Molecular Weight Calculator, supporting a range of molecular weight calculations for both chemical formulas and amino acids.
 
 #### Software Category: Tutorials
-* __[Command Line Application Help](https://pnnl-comp-mass-spec.github.io/CmdLineHelp)__ <br>
+* __[Command Line Application Help](CmdLineHelp)__ <br>
   This topic provides a basic introduction to using software tools that do not have a graphical user interface (GUI) and instead can only be used at the Windows Command Prompt.
 
 #### Retired Tools:
-* __[DanteR](https://omics.pnl.gov/software/danter)__ <br>
+* __[DanteR](DanteR)__ <br>
   DanteR is an entirely R-based program that provides a graphical front-end for common data analysis tasks in "omics", with an emphasis on proteomics. It is the successor to DAnTE, providing all of the previous features plus new functionality, including the imputation algorithm described in "[A statistical framework for protein quantitation in bottom-up MS-based proteomics.](https://www.ncbi.nlm.nih.gov/pubmed/19535538)" by Karpievitch and Dabney (DOI 10.1093/bioinformatics/btp362).
 
   IMPORTANT: Development of this program is frozen since it has been superseded by InfernoRDN, available on the [InfernoRDN page](https://pnnl-comp-mass-spec.github.io/InfernoRDN/) or [on GitHub](https://github.com/PNNL-Comp-Mass-Spec/InfernoRDN/releases).
 
   This version is still made available because it implements the imputation algorithm described above (see "Model Based Filter/Impute/ANOVA" under the Statistics menu).
 
-* __[ICR-2LS](https://omics.pnl.gov/software/icr-2ls)__ <br>
+* __[ICR-2LS](ICR-2LS)__ <br>
   Finds peaks in raw mass spectra. Capable of full waveform generation, automated mass spectra interpretation and database searching integration of FASTA or GenBank files.
 
-* __[mPE-MMR](https://omics.pnl.gov/software/mpe-mmr)__ <br>
+* __[mPE-MMR](mPE-MMR)__ <br>
   mPE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra. mPE-MMR (Multiplexed Post-Experiment Monoisotopic Mass Refinement) supports multiplexed MS/MS spectra, and consists of the following:
 
   * Multiplexing of precursor masses to assign multiple monoisotopic masses of cofragmented peptides to the corresponding multiplexed MS/MS spectra
@@ -149,13 +149,13 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 
   When combined with MS-GF+, a database search algorithm based on fragment mass difference, mPE-MMR effectively increases both sensitivity and accuracy in peptide identification from complex high-throughput proteomics data compared to conventional methods.
 
-* __[PE-MMR](https://omics.pnl.gov/software/pe-mmr)__ <br>
+* __[PE-MMR](PE-MMR)__ <br>
   PE-MMR can be used to create a MGF file with refined parent ion masses and charges, which can lead to more accurate search results from MS/MS spectra.
 
-* __[Concatenated DTA to Mascot Generic File (MGF) File Converter](https://omics.pnl.gov/software/concatenated-dta-mascot-generic-file-mgf-file-converter)__ <br>
+* __[Concatenated DTA to Mascot Generic File (MGF) File Converter](CDtaToMgfConverter)__ <br>
     Command-line utility that reads in a _Dta.txt file and creates the equivalent Mascot Generic Format (MGF) file. _Dta.txt files are large text files that contain numerous .Dta files, all concatenated together.
 
-* __[Concatenated Text File Splitter](https://omics.pnl.gov/software/concatenated-text-file-splitter)__ <br>
+* __[Concatenated Text File Splitter](CDtaTextFileSplitter)__ <br>
   The Concatenated Text File Splitter can be used to split apart the concatenated file to re-create the individual text files (creating one file per spectrum). This is necessary if you wish to re-search the data with SEQUEST (which reads individual .Dta files).
 
 ### Software Disclaimers

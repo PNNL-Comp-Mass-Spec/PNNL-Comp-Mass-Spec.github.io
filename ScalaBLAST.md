@@ -8,7 +8,7 @@ ScalaBLAST supports all 5 primary program types (blastn, blastp, tblastn, tblast
 [ScalaBLAST 2.0: rapid and robust BLAST calculations on multiprocessor systems](https://pubmed.ncbi.nlm.nih.gov/23361326/) [PMCID PMC3597145](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3597145/)
 
 ### Downloads
-* [ScalaBLAST source](resources/scalablast_source.tar.gz)
+* [ScalaBLAST source](https://panomics.pnnl.gov/downloads/installers/scalablast_source.tar.gz)
 * [ScalaBLAST Readme](resources/ScalaBLAST_Readme.txt)
 
 #### Software Instructions
