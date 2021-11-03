@@ -95,7 +95,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   DataProcessing toolbox for running MSGF+ and MASIC, then merging the results. Uses Windows batch files to automate the process for a folder of Thermo .Raw files
 
 * __[MSPathFinder](https://pnnl-comp-mass-spec.github.io/Informed-Proteomics/)__ <br>
-  MSPathFinder is a database search engine for top-down proteomics, part of the Informed Proteomics package.
+  MSPathFinder is a database search engine for top-down proteomics, part of the Informed Proteomics package, which includes PbfGen, ProMex, MSPathfinderT, and ProMexAlign.
 
 * __[MZRefinery](https://pnnl-comp-mass-spec.github.io/MzRefinery)__ <br>
   MZRefinery is a software tool for correcting systematic mass error biases in mass spectrometry data files. The software uses confident peptide spectrum matches from MSGF+ to evaluate three different calibration methods, then chooses the optimal transform function to remove systematic bias, typically resulting in a mass measurement error histogram centered at 0 ppm. MzRefinery is part of the ProteoWizard package (in the msconvert.exe tool) and it thus can read and write a wide variety of file formats.
