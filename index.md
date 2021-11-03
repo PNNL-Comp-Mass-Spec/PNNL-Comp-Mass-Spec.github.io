@@ -2,6 +2,12 @@
 
 All of our open source software is posted at our group's [GitHub Repository](https://github.com/PNNL-Comp-Mass-Spec).
 
+Some quick links:
+* [PNNL PreProcessor](#pnnlpreprocessor)
+* [Venn Diagram Plotter](#venndiagram)
+* [Thermo Raw File Reader](#rawfilereader)
+* [Molecular Weight Calculator](#molwtcalc)
+
 #### Software Category: Featured Tools
 * __[DeconTools (Decon2LS)](https://pnnl-comp-mass-spec.github.io/DeconTools/)__ <br>
   Used to de-isotope mass spectra and to detect features from mass spectrometry data using observed isotopic signatures.
@@ -36,7 +42,7 @@ All of our open source software is posted at our group's [GitHub Repository](htt
 * __[ScalaBLAST](ScalaBLAST)__ <br>
   A high-performance multiprocessor implementation of the NCBI BLAST library.
 
-* __[Venn Diagram Plotter](https://pnnl-comp-mass-spec.github.io/Venn-Diagram-Plotter/)__ <br>
+* __[Venn Diagram Plotter](https://pnnl-comp-mass-spec.github.io/Venn-Diagram-Plotter/)__ <a id="venndiagram"></a> <br>
   Draws correctly proportioned and positioned two and three circle Venn diagrams (aka Euler diagrams) whose colors can be customized and the diagrams copied to the clipboard or saved to disk.
 
 * __[VIBE: Visual Integration for Bayesian Evaluation](VIBE)__ <br>
@@ -112,14 +118,14 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
 * __[OBO Data Converter](https://pnnl-comp-mass-spec.github.io/OBO-Data-Converter/)__ <br>
   Utility for converting ontology OBO files to a tab-delimited text file
 
-* __[PNNL PreProcessor](PNNL-PreProcessor)__ <br>
+* __[PNNL PreProcessor](PNNL-PreProcessor)__ <a id="pnnlpreprocessor"></a> <br>
   Ion mobility-mass spectrometry (IM-MS) provides an increasingly popular platform for analyzing complex samples due to its separation power and ability to differentiate structural isomers, which are difficult to resolve using conventional LC-MS systems. Here we provide a software tool with various algorithms and utilities to improve workflows using this technology: data compression and interpolation, ion mobility demultiplexing, multidimensional smoothing, noise filtering by low intensity threshold and spike removal, saturation repair and metadata export.
 
-* __[Thermo Raw File Reader](https://pnnl-comp-mass-spec.github.io/Thermo-Raw-File-Reader/)__ <br>
+* __[Thermo Raw File Reader](https://pnnl-comp-mass-spec.github.io/Thermo-Raw-File-Reader/)__ <a id="rawfilereader"></a> <br>
   The Thermo Raw File Reader is a .NET DLL that demonstrates how to read Thermo-Finnigan .Raw files using Thermo's RawFileReader.
 
 #### Software Category: Mass Spectrometry Auxiliary Tools
-* __[Molecular Weight Calculator](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-VB6/)__ <br>
+* __[Molecular Weight Calculator](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-VB6/)__ <a id="molwtcalc"></a> <br>
   Calculates the molecular weight and percent composition of chemical formulas and amino acids.
 
 * __[Molecular Weight Calculator - .NET DLL Version](https://pnnl-comp-mass-spec.github.io/Molecular-Weight-Calculator-DLL/)__ <br>
