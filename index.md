@@ -3,10 +3,11 @@
 All of our open source software is posted at our group's [GitHub Repository](https://github.com/PNNL-Comp-Mass-Spec).
 
 Some quick links:
-* [PNNL PreProcessor](#pnnlpreprocessor)
-* [Venn Diagram Plotter](#venndiagram)
-* [Thermo Raw File Reader](#rawfilereader)
+* [Command Line Application Help](#cmdlineapphelp)
 * [Molecular Weight Calculator](#molwtcalc)
+* [PNNL PreProcessor](#pnnlpreprocessor)
+* [Thermo Raw File Reader](#rawfilereader)
+* [Venn Diagram Plotter](#venndiagram)
 
 #### Software Category: Featured Tools
 * __[DeconTools (Decon2LS)](https://pnnl-comp-mass-spec.github.io/DeconTools/)__ <br>
@@ -132,7 +133,7 @@ MASIC (MS/MS Automated Selected Ion Chromatogram generator) Generates selected i
   VB.NET DLL version of the Molecular Weight Calculator, supporting a range of molecular weight calculations for both chemical formulas and amino acids.
 
 #### Software Category: Tutorials
-* __[Command Line Application Help](CmdLineHelp)__ <br>
+* __[Command Line Application Help](CmdLineHelp)__ <a id="cmdlineapphelp"></a> <br>
   This topic provides a basic introduction to using software tools that do not have a graphical user interface (GUI) and instead can only be used at the Windows Command Prompt.
 
 #### Retired Tools:
