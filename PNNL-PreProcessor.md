@@ -35,8 +35,8 @@ __Disclaimer__: the saturation repair software may produce incorrect results for
 If you use the PreProcessor, please cite: Bilbao et al. *A Preprocessing Tool for Enhanced Ion Mobility-Mass Spectrometry-Based Omics Workflows.* Journal of Proteome Research 2021 [https://doi.org/10.1021/acs.jproteome.1c00425](https://doi.org/10.1021/acs.jproteome.1c00425).
 
 ### Downloads
-* [Software](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2021.10.27.zip)
-* [Software installer](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2021.10.27_INSTALLER.exe) [as .zip file](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2021.10.27_INSTALLER.zip)
+* [Software](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17.zip)
+* [Software installer](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17_INSTALLER.exe) [as .zip file](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17_INSTALLER.zip)
 * [User Guide](https://panomics.pnnl.gov/downloads/installers/PNNL-PreProcessor_UserGuide_4.0_2021.10.27.pdf)
 
 ### Acknowledgment
