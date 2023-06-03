@@ -2,7 +2,7 @@
 Ion mobility-mass spectrometry (IM-MS) provides an increasingly popular platform for analyzing complex samples due to its separation power and ability to differentiate structural isomers, which are difficult to resolve using conventional LC-MS systems. Here we provide a software tool with various algorithms and utilities to improve workflows using this technology: data compression and interpolation, ion mobility demultiplexing, multidimensional smoothing, noise filtering by low intensity threshold and spike removal, saturation repair and metadata export.
 
 ### Description
-In close collaboration between Pacific Northwest National Laboratory and Agilent Technologies, we have developed this user-friendly tool for Agilent MassHunter (.d) and UIMF mass spectrometry data files (MS-files) and generates new MS-files in the same instrument data format with enhanced signal quality.
+In close collaboration between Pacific Northwest National Laboratory and Agilent Technologies, we have developed this user-friendly tool for Agilent MassHunter (.d) and UIMF mass spectrometry data files (MS-files) from drift tube (DT) and structure for lossless ion manipulations (SLIM) IM-MS platforms, to generate new MS-files in the same instrument data format with enhanced signal quality.
 
 ![PreProcessor_Workflow](images/PreProcessor_Workflow.png)
 
@@ -11,9 +11,10 @@ Software features:
 * Command-line and graphical (workflow style) user interfaces.
 * Single-click batch processing of multiple raw MS-files.
 * Data compression (by frame and mobility) and filtering by retention time range.
+* Data interpolation of the ion mobility dimension to improve the results of the HRdm demultiplexing and peak deconvolution strategy.
 * Multidimensional smoothing of data and repair of saturated peaks.
-* PNNL demultiplexing and artifact removal algorithm integrated.
-* A new algorithm to remove noise in form of ‘spikes’.
+* PNNL demultiplexing and artifact removal algorithm integrated. A new selectable pulse coverage percentage to increase sensitivity for low level signals.
+* An algorithm to remove noise in form of ‘spikes’.
 * Ion mobility MS with/without any separation: LC-IM-MS, solid phase extraction (e.g., RapidFire) IM-MS and direct infusion IM-MS.
 * All Ions MS-files (data-independent acquisition) with alternating high/low collision energy fragmentation.
 * Exporting metadata information of ion mobility frames (e.g., field, pressure, temperature) and MS actuals to text files.
@@ -21,9 +22,8 @@ Software features:
 
 New features:
 
-* Data interpolation of the ion mobility dimension to improve the results of the HRdm demultiplexing and peak deconvolution strategy.
-* A selectable pulse coverage percentage to increase sensitivity for low level signals in demultiplexing.
-* Increase significantly the number of features consistently detected across your multiple runs while reducing the file size and time for downstream processing.
+* Conversion of arrival time to CCS in the raw data for SLIM.
+* Conversion of arrival time to retention time: single frame “IMMS” data to “LCMS” format.
 
 ![SmoothingExample](images/SmoothingExample.png)
 > Smoothing removes artifacts in jagged peaks, which are common in low-abundance ions. Real signals are enhanced, and variations in abundance, elution and mobility/collisional-cross-section are reduced.
@@ -35,9 +35,9 @@ __Disclaimer__: the saturation repair software may produce incorrect results for
 If you use the PreProcessor, please cite: Bilbao et al. *A Preprocessing Tool for Enhanced Ion Mobility-Mass Spectrometry-Based Omics Workflows.* Journal of Proteome Research 2021 [https://doi.org/10.1021/acs.jproteome.1c00425](https://doi.org/10.1021/acs.jproteome.1c00425).
 
 ### Downloads
-* [Software](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17.zip)
-* [Software installer](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17_INSTALLER.exe) [as .zip file](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.0_2022.02.17_INSTALLER.zip)
-* [User Guide](https://panomics.pnnl.gov/downloads/installers/PNNL-PreProcessor_UserGuide_4.0_2021.10.27.pdf)
+* [Software](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.1_2023.06.02.zip)
+* [Software installer](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.1_2023.06.02_INSTALLER.exe) [as .zip file](https://panomics.pnnl.gov/downloads/installers/PNNL-Preprocessor_4.1_2023.06.02_INSTALLER.zip)
+* [User Guide](https://panomics.pnnl.gov/downloads/installers/PNNL-PreProcessor_UserGuide_4.1_2023.06.pdf)
 
 ### Acknowledgment
 
