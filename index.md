@@ -66,8 +66,8 @@ Console application that reads a protein FASTA file and splits it apart into a n
   The Uniprot DAT File Parser can read a Uniprot .Dat file and parse out the information for each entry, creating a series of tab delimited text files or creating a FASTA file.
 
 #### Software Category: MS Analysis Tools
-* __[Formularity](https://pnnl-comp-mass-spec.github.io/Formularity/)__ <br>
-  Formularity is software for assignment of low weight molecular formula from high-resolution mass spectra.
+* __[Formultitude](https://pnnl-comp-mass-spec.github.io/Formultitude/)__ <br>
+  Formultitude is software for assignment of low weight molecular formulas to peaks in high-resolution mass spectra.
 
 * __[MTDB Creator](https://pnnl-comp-mass-spec.github.io/MTDB-Creator/)__ <br>
   This software can be used to generate an Accurate Mass and Time tag database from local MS/MS search engine results from MSGF+, X!Tandem, or SEQUEST.  It can create the database in two formats:
