@@ -67,7 +67,7 @@ Console application that reads a protein FASTA file and splits it apart into a n
 
 #### Software Category: MS Analysis Tools
 * __[Formultitude](https://pnnl-comp-mass-spec.github.io/Formultitude/)__ <br>
-  Formultitude is software for assignment of low weight molecular formulas to peaks in high-resolution mass spectra.
+  Formultitude (previously named Formularity) is software for assignment of low weight molecular formulas to peaks in high-resolution mass spectra.
 
 * __[MTDB Creator](https://pnnl-comp-mass-spec.github.io/MTDB-Creator/)__ <br>
   This software can be used to generate an Accurate Mass and Time tag database from local MS/MS search engine results from MSGF+, X!Tandem, or SEQUEST.  It can create the database in two formats:
